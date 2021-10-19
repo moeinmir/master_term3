@@ -23,7 +23,7 @@ for i=1:t-p
 end;
 
 % Contribution to real price of oil
-time=1975+2/12:1/12:2007+12/12;
+time=1986+1/12:1/12:2020+12/12;
 
 subplot(3,1,1)
 plot(time,yhat1,'b-');
@@ -40,6 +40,6 @@ grid on
 subplot(3,1,3)
 plot(time,yhat3,'b-');
 title('Cumulative Effect of Oil-Market Specific Demand Shock on Real Price of Crude Oil')
-axis([1976+1/12 2007+12/12 -100 +100])
+axis([1986+1/12 2020+12/12 -100 +100])
 grid on
 

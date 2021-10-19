@@ -14,8 +14,11 @@ global h t
 % The data sources are described in the text.
 
 load data.txt; y=data; [t,q]=size(y); 
-time=(1973+2/12:1/12:2007+12/12)';  % Time line
+time=(1986+1/12:1/12:2020+12/12)';  % Time line
 h=15;                               % Impulse response horizon
 p=24;                               % VAR lag order
 [A,SIGMA,Uhat,V,X]=olsvarc(y,p);	% VAR with intercept	
 SIGMA=SIGMA(1:q,1:q);
+
+
+
