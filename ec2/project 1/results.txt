@@ -1,20 +1,14 @@
 	(1)
 VARIABLES	pp
 	
-lfpfp	0.0824
-	(0.0827)
-edu	0.894**
-	(0.406)
-upp	0.198
-	(0.129)
-gdppc	1.67e-05
-	(6.08e-05)
-cpi	-0.0641**
-	(0.0312)
-Constant	-14.48
-	(11.15)
+edu	-0.105
+	(0.537)
+gdppc	-9.41e-05***
+	(2.97e-05)
+Constant	5.051**
+	(1.802)
 	
-Observations	31
-R-squared	0.599
+Observations	16
+R-squared	0.583
 Standard errors in parentheses	
 *** p<0.01, ** p<0.05, * p<0.1	
