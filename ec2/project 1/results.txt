@@ -1,14 +1,9 @@
-	(1)
-VARIABLES	pp
-	
-edu	-0.105
-	(0.537)
-gdppc	-9.41e-05***
-	(2.97e-05)
-Constant	5.051**
-	(1.802)
-	
-Observations	16
-R-squared	0.583
-Standard errors in parentheses	
-*** p<0.01, ** p<0.05, * p<0.1	
+	(1)	(2)	(3)
+VARIABLES	b2	b3	b0
+			
+Constant	-0.209***	-8.37e-05***	5.124***
+	(0.0760)	(4.32e-06)	(0.200)
+			
+Observations	16	16	16
+Robust standard errors in parentheses			
+*** p<0.01, ** p<0.05, * p<0.1			
